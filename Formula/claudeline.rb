@@ -1,28 +1,28 @@
 class Claudeline < Formula
   desc "Cross-platform statusline for Claude Code"
   homepage "https://github.com/arcasilesgroup/claudeline"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/arcasilesgroup/claudeline/releases/download/v#{version}/claudeline-darwin-arm64"
-      sha256 "357cc59c2f8dcee0ed02471f2814a964949ff85b8f089e30fcb3c8873e9aceb8"
+      sha256 "8b41143b081c3f4f78bb77a8e7a91a688533c8a784d3ddc14a553c108066d495"
     end
     on_intel do
       url "https://github.com/arcasilesgroup/claudeline/releases/download/v#{version}/claudeline-darwin-x64"
-      sha256 "93e2422ff36c83a2b11c74b7b9fb32df4c7891be9eb47efb34dac007ad24b9bd"
+      sha256 "ded224a1a6ef377059d4513bc6b1073d714206393616b81714df0e906bcfcf82"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arcasilesgroup/claudeline/releases/download/v#{version}/claudeline-linux-x64"
-      sha256 "f4e2b89829cc506951a86dd31e1da559ad1d11c9eebd8d4b148f20066ffadf66"
+      sha256 "bc124341c837fb2bfdaebcacd910b2247c23009e0afc3d7a169b61766ed734f0"
     end
     on_arm do
       url "https://github.com/arcasilesgroup/claudeline/releases/download/v#{version}/claudeline-linux-arm64"
-      sha256 "db75186c656dcb305fbb2608c2574ab4bcb4c12d29b994d6f68f77cba2e0e9c5"
+      sha256 "7dea704210ad27e001b5cc21ef63b09881732262b9cb943bf1e83790f990c6b7"
     end
   end
 
